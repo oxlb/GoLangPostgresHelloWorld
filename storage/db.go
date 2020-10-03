@@ -3,9 +3,10 @@ package storage
 import (
 	"log"
 
+	config "github.com/oxlb/GoLangPostgresHelloWorld/config"
+
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
-	config "github.com/oxlb/GoLangPostgresHelloWorld/config/"
 )
 
 //DB a global for GORM DB object

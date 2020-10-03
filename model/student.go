@@ -4,8 +4,8 @@ import (
 	"github.com/jinzhu/gorm"
 )
 
-type Student struct {
+type Students struct {
 	gorm.Model
-	Id     string `json:"id"`
-	Name   string `json:"name"`
+	Id   string `json:"id"`
+	Name string `json:"name"`
 }
