@@ -1,3 +1,5 @@
+package controller
+
 import (
 	model "github.com/oxlb/GoLangPostgresHelloWorld/model/student"
 	db "github.com/oxlb/GoLangPostgresHelloWorld/storage"
