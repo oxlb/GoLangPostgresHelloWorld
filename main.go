@@ -15,7 +15,7 @@ func main() {
 	storage.NewDB()
 	// Routes
 	e.GET("/", hello)
-	e.GET("/student", controller.GetStudents)
+	e.GET("/students", controller.GetStudents)
 
 	// Start server
 	e.Logger.Fatal(e.Start(":1323"))
